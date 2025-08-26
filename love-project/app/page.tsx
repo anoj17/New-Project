@@ -8,47 +8,48 @@ import { Heart, Sparkles, Star, Flower2, Crown, Gift } from "lucide-react";
 const questions = [
   {
     id: 1,
-    question: "Tmlai first time dekheko din..",
+    question: "I am so happy every time I talk to you",
     subtitle:
-      "Ma office mai thiye temi haru sabai sangai halla gardai aako thiyeu hehe 😂. Ani diuso check aako thiye temi kati khusi hudai check satna gako thiyeu",
+      "",
     icon: <Heart className="w-8 h-8" />,
   },
   {
     id: 2,
-    question: "Hami first time momo khako yaad xa tmlai aayu?",
+    question: "For Me You are Perfect",
     subtitle:
-      "Ma tmlai xodna gako thiye temi jam momo khana vanera gako thiyeu temi kati khusi thiyeu tyo bela😊",
-    icon: <Star className="w-8 h-8" />,
+      "",
+    icon: <Heart className="w-8 h-8" />,
   },
   {
     id: 3,
-    question:
-      "Suru ko din ma maile tmlai moon vaneko thiye yaad xa ki vuleu?😄",
+    question: "You are the one I want to talk To Every Day😊",
     subtitle:
-      "Hami haru office bata ghara farkedai thiyeu tmlai first time flirt gareko maile temi lajako thiyeu. Anil dipa sabai tehai thiye hehe.",
-    icon: <Crown className="w-8 h-8" />,
+      "",
+    icon: <Star className="w-8 h-8" />,
   },
   {
     id: 4,
-    question: "Aayu last time ekchoti trust gara na pls....😢",
+    question:
+      "You are the person That I don't want to lose😄",
     subtitle:
-      "Tyo mistake maile clear garna tw sakdina aayu, tara promise garxu aayu yesto mistake aba kahile gardina Promise☹️. Every situation ma temi sangai hunxu aayu, yesteri na boli na basa na aayu plz.",
-    icon: <Gift className="w-8 h-8" />,
+      "",
+    icon: <Crown className="w-8 h-8" />,
   },
   {
     id: 5,
-    question: "",
+    question: "You are always Beautiful",
     subtitle:
-      "Aaja bihena malai kati gali gareu aayu, tyo vanda ni na ramro diuso temi kura na garda lagyo. Ma kati eklo vaye aaja.😢 Ma temi bata tada vayera basna na sakni vayexu aayu  ",
+      "",
     icon: <Gift className="w-8 h-8" />,
   },
   {
     id: 6,
-    question: "Office ko First Din..",
+    question: "<<I Love YOU>>",
     subtitle:
-      "Tmlai tha xa,  Ma yo office aauni bittiki first ma temi notice vako thiyo, Maile kati tmro photo lina khojye temi maneko thiyeneu. Paxi chindai gayesi tmro ghar ktm nai raixa ani temi ni yeti cute xeu, Tmro bf xa jasto lagyo malai ani if na vako vaye ni tmle malai kahile accept gardineu sochye, Ani ma tmro najik kahile parina najik aaye ni ramro sanga kura garina. Temi ekdam cute ani mann ni safa thiyo tyo bela I mean aaile ni xa but tmro tyo kura le nai malai ramro lageko thiyo, ani temi ekdam mature type ko xeu ni malai testai mann parxa hehe. Malai dar lagthyo ani temi bata tada nai basthye, paxi tmlai sikauna thalye ani ekdam close vaye ma tmro. Pahila ma temi sanga kati na ramro bolthye maile nai sochthye tmle malai accept gardineu vanera ani ma nai tada basthye. Ani tyo bus wala kura hehe sorry! hai aayu. Ma temi bayek aru koi sochthina tyo bela ni aaile ni sochna sakdina. Temi sanga yo every second aayu ekdam khas xa mero lagi. ma yo temi sanga ko pal kahile vulna sakdina",
+      "",
     icon: <Gift className="w-8 h-8" />,
   },
+
 ];
 
 const RosePetal = ({ delay }: { delay: number }) => (
@@ -57,7 +58,7 @@ const RosePetal = ({ delay }: { delay: number }) => (
     style={{
       left: `${Math.random() * 100}%`,
       animationDelay: `${delay}s`,
-      animationDuration: `${7 + Math.random() * 4}s`,
+      animationDuration: `${5 + Math.random() * 4}s`,
     }}
   >
     <Flower2 className="w-4 h-4 text-pink-400/60" />
@@ -71,7 +72,7 @@ const FloatingHeart = ({ delay, size }: { delay: number; size: string }) => (
       left: `${Math.random() * 100}%`,
       top: `${Math.random() * 100}%`,
       animationDelay: `${delay}s`,
-      animationDuration: `${4 + Math.random() * 2}s`,
+      animationDuration: `${5 + Math.random() * 2}s`,
     }}
   />
 );
@@ -162,30 +163,27 @@ export default function ProposalPage() {
               </h1>
 
               <div className="space-y-6 mb-12">
-                <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
+                <p className="text-xl md:text-md text-gray-700 leading-relaxed font-light">
                   You are my everything, my best friend, my soulmate, and my
                   greatest love.
                   <span className="font-medium text-rose-600">
                     {" "}
-                    I can&apos;t imagine spending my life with anyone else.
+                    I can’t imagine a single moment of my future without you by my side.
                   </span>
                 </p>
 
-                <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                  You make every day brighter, every moment more meaningful, and
-                  every dream more beautiful. With you, I&apos;ve found my home,
-                  my peace, and my forever.
+                <p className="text-lg md:text-md text-gray-600 leading-relaxed">
+                  With you, every day feels brighter, every moment becomes more meaningful, and every dream turns more beautiful. In your love, I’ve found my home, my peace, and my forever.
                 </p>
 
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                  I promise to love you unconditionally, support your dreams,
-                  cherish every moment, and be your partner in all of
-                  life&apos;s adventures.
+                  I promise to love you unconditionally, to stand beside you in every challenge, to celebrate your every victory, and to hold your hand through every journey life brings.
                   <span className="font-medium text-pink-600">
                     {" "}
-                    Together, we can create a love story that lasts forever.
+                    You are not just my love, you are my destiny.
                   </span>
                 </p>
+                <p className="font-medium text-pink-600">Today, I ask you from the deepest part of my heart — will you be mine, not just for today, but for always? 💍❤️</p>
               </div>
             </div>
 
@@ -212,7 +210,7 @@ export default function ProposalPage() {
                   ))}
                 </div>
                 <p className="text-2xl font-bold text-rose-600 animate-text-glow">
-                  🎉 She said YES! 🎉
+                  🎉 Thank you for trusting me, I’ll spend my whole life proving that you made the right choice.🎉
                 </p>
               </div>
             )}
@@ -248,37 +246,31 @@ export default function ProposalPage() {
               }`}
             >
               <div className="mb-12">
+                <h1 className="font-serif text-5xl md:text-7xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-8 leading-tight animate-text-glow">
+                  Meeting You was a Nice Accident
+                </h1>
                 <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-r from-rose-200 to-pink-200 rounded-full mb-8 animate-pulse-glow shadow-2xl">
                   <Heart className="w-16 h-16 text-rose-600 fill-current animate-heartbeat" />
                 </div>
 
-                <h1 className="font-serif text-5xl md:text-7xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-8 leading-tight animate-text-glow">
+                {/* <h1 className="font-serif text-5xl md:text-7xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-8 leading-tight animate-text-glow">
                   Aayu
-                </h1>
+                </h1> */}
 
-                <p className="text-2xl md:text-3xl text-gray-700 mb-6 leading-relaxed font-light">
-                  I have something very special to share with you today.
+                <p className="text-xl md:text-md text-gray-700 mb-6 leading-relaxed font-semibold">
+                  Aayu Temi lai tha nai xa, I Love You. But you don’t know how much I love you. Maile tmlai derai hurt garaxu but Aayu Promise Temi maya bayek aru kei feel garaudina aba. hehe
                 </p>
 
-                <p className="text-xs md:text-sm text-gray-600 mb-12 leading-relaxed flex flex-col">
-                  <span>
-                    Sorry Aayu, 😔 Ma tyo mistake aba kahile repeat gardina Ek
-                    choti lai maaf gardeu na please. Tmlai hurt kahile gardina.{" "}
-                  </span>
-                  <span className="text-red-300 text-sm">
-                    Hami haru derai thau ma ghumna jani aayu. Maile banako list
-                    sabai temi sanga ghumera sakni ho.
-                  </span>
-                </p>
+                <p className="text-xs md:text-sm text-gray-600 mb-12 leading-relaxed flex flex-col"></p>
               </div>
 
               <Button
                 onClick={() => setCurrentStep(1)}
                 size="lg"
-                className="bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-110 animate-gentle-bounce"
+                className="bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 cursor-pointer hover:to-pink-700 text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-110 animate-gentle-bounce"
               >
                 <Heart className="w-6 h-6 mr-3 fill-current animate-heartbeat" />
-                I&apos;m Ready ❤️
+                Next ❤️
               </Button>
             </div>
           )}
@@ -311,10 +303,10 @@ export default function ProposalPage() {
                       }
                     }}
                     size="lg"
-                    className="bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white px-10 py-5 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
+                    className="bg-gradient-to-r cursor-pointer from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white px-10 py-5 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                   >
+                    Next
                     <Heart className="w-5 h-5 mr-2 fill-current" />
-                    Yes, Always ❤️
                   </Button>
                 </div>
 
